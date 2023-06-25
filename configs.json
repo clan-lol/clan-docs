@@ -1,0 +1,15 @@
+{
+  "default": {
+    "adminMode": "local",
+    "networkLayer": "yggdrasil",
+    "applications": {
+      "syncthing": {
+        "enable": true,
+        "sharedFolders": [ "/shared/docs" ]
+      },
+      "mumbleClient": {
+        "server": "mumble.hiboss"
+      }
+    }
+  }
+}
